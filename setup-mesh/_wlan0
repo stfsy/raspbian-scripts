@@ -1,0 +1,8 @@
+# https://manpages.debian.org/buster/wireless-tools/iwconfig.8.en.html
+auto wlan0
+iface wlan0 inet manual
+    mtu 1532
+    wireless-channel 5
+    wireless-essid _$stfsy_meshbone_ 
+    wireless-mode ad-hoc
+    wireless-ap 02:12:34:56:78:9A 
