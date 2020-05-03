@@ -7,7 +7,7 @@ declare -r TEMPLATE_CONF_FOLDER="_"${CONF_FOLDER}""
 
 declare -r WIFI_PASSWORD=$1
 declare -r WIFI_NAME=$2
-declare -r ETH_NAME=$(ifconfig | grep enx | cut -d: -f1)
+declare -r ETH_NAME=$3
 
 if [ -z "$WIFI_PASSWORD" ]
 then
