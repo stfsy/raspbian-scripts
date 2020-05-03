@@ -1,0 +1,5 @@
+[Match]
+Name=ETH_INTF
+
+[Network]
+Bridge=br0
