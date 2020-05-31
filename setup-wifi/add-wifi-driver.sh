@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e 
+set -e
 
 #https://github.com/Mange/rtl8192eu-linux-driver
 declare -r WORKDIR=rtl8192eu-linux-driver
