@@ -5,7 +5,7 @@ set -e
 #https://github.com/Mange/rtl8192eu-linux-driver
 declare -r WORKDIR=rtl8192eu-linux-driver
 
-sudo apt-get install git raspberrypi-kernel-headers build-essential
+sudo apt-get install bc git raspberrypi-kernel-headers build-essential
 
 git clone https://github.com/Mange/${WORKDIR}
 
