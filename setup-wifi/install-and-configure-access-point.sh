@@ -57,6 +57,8 @@ mkdir ./"${CONF_FOLDER}"
 cp "${TEMPLATE_CONF_FOLDER}"/_hostapd.conf ./"${CONF_FOLDER}"/hostapd.conf
 cp "${TEMPLATE_CONF_FOLDER}"/_hostapd ./"${CONF_FOLDER}"/hostapd
 
+cp "${TEMPLATE_CONF_FOLDER}"/_dnsmasq.conf ./"${CONF_FOLDER}"/dnsmasq.conf
+
 cp "${TEMPLATE_CONF_FOLDER}"/_bridge-br0.netdev ./"${CONF_FOLDER}"/bridge-br0.netdev
 cp "${TEMPLATE_CONF_FOLDER}"/_bridge-br0-slave.network ./"${CONF_FOLDER}"/bridge-br0-slave.network
 cp "${TEMPLATE_CONF_FOLDER}"/_bridge-br0.network ./"${CONF_FOLDER}"/bridge-br0.network
