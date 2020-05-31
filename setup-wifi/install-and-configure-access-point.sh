@@ -52,6 +52,8 @@ apt-get update && apt-get install dnsmasq hostapd iptables bridge-utils -y
 
 sudo /etc/init.d/hostapd stop
 
+mkdir ./"${CONF_FOLDER}"
+
 cp "${TEMPLATE_CONF_FOLDER}"/_hostapd.conf ./"${CONF_FOLDER}"/hostapd.conf
 cp "${TEMPLATE_CONF_FOLDER}"/_hostapd ./"${CONF_FOLDER}"/hostapd
 
